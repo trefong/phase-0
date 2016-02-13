@@ -1,0 +1,8 @@
+https://github.com/trefong/trefong.github.io
+
+In order to create a repository on GitHub you need to click the plus sign button on the top right hand of the site and click create repository from the drop down menu. Next you will need fill the information on the next page as necessary (depending on what kind of project you are working on). Next, from the main repository page, you need to copy the HTTPS link. From there nagivate to your terminal and enter in "git clone [the HTTPS URL you copied]", making sure you are in an area that is appropriate for a repository such as your desktop.
+Open source means that you are allowed to modify/ edit/use the code.
+I think that open source is mainly a good thing especially for coding. While it is important to protect what is rightfully owned, coding will always have an element of collaboration that cannot be ignored. Computer science thrives off of people checking/adding/editing other people's ideas.
+It is important to use liscenses so that people can get credit for what they have worked so hard on. Especially for computer sicence, it's as if you've created something entirely new that no one's ever seen everytime.
+This challenge was one of the more difficult ones for me because I realized half way through that I had done somehting wrong. I struggled with managing the differenct branches directories and files can have because I couldn't physically see them. But in the end, I feel that I have a good idea of pushing and pulling to GitHub.
+I did at one point have to look up how to delete a branch after the terminal gave me an error for the syntax given to us. Luckily all had to do was capitalize a single letter. I used this site http://www.git-scm.com/book/en/v2/Git-Branching-Branch-Management.
