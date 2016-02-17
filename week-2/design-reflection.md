@@ -9,7 +9,7 @@ The goal of my site will be to give myself exposure to the professional world. M
 What is your target audience's interests and how do  you see your site addressing them?
 My target audeince's interest is mainly coding. I will address that interest by putting up relevant information about myself concerning coding.
 
-What is the primary "action" the user should take when coming to your site? Do you want them to search for information, contact you, or see your protfolio? It's ok to have several actions at once, or different actions for different kinds of visitors.
+What is the primary "action" the user should take when coming to your site? Do you want them to search for information, contact you, or see your portfolio? It's ok to have several actions at once, or different actions for different kinds of visitors.
 The primary actions that I want the user to take is to contact me, and look through my portfolio.
 
 What are the main things someone should know about design and user experience?
