@@ -1,5 +1,5 @@
-![WireFrameBlog](/Users/TraciFong/Desktop/DBC/phase-0/week-2/imgs/wireframe-blog-index.png)
-![WireFrameIndex](/Users/TraciFong/Desktop/DBC/phase-0/week-2/imgs/wireframe-index.png)
+![WireFrameBlog](imgs/wireframe-blog-index.png)
+![WireFrameIndex](imgs/wireframe-index.png)
 
 #What is a wireframe?
 
