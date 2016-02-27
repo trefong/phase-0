@@ -1,11 +1,11 @@
-![picture1](imgs/picture1)
-![picture2](imgs/picture2)
-![picture3](imgs/picture3)
-![picture4](imgs/picture4)
-![picture5](imgs/picture5)
-![picture6](imgs/picture6)
-![picture7](imgs/picture7)
-![picture8](imgs/picture8)
+![picture1](imgs/picture1.png)
+![picture2](imgs/picture2.png)
+![picture3](imgs/picture3.png)
+![picture4](imgs/picture4.png)
+![picture5](imgs/picture5.png)
+![picture6](imgs/picture6.png)
+![picture7](imgs/picture7.png)
+![picture8](imgs/picture8.png)
 
 #How can you use Chrome's DevTools inspector to help you format or position elements?
 Chrome's DevTools inspector is great to edit your code for designing because it can give you the option to see what you site will look like with out a piece of code just by unchecking a box.
