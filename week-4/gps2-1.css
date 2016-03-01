@@ -1,0 +1,37 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  width: 100%;
+  border: 1px solid black;
+  padding-left: 10px;
+  background-color:#B8C8D6;
+
+}
+
+.column-1 {
+  width: 48%;
+  float: left;
+  padding-left: 2%;
+  position: relative;
+  margin-bottom:2%
+}
+
+.column-2 {
+  width: 48%;
+  float: right;
+  padding-left: 2%;
+  position: relative;
+  margin-bottom:2%
+}
+
+footer {
+  margin:1%;
+  width: 100%;
+  clear: both;
+  border: 1px solid black;
+  padding: 2%;
+  background-color:#B8C8D6;
+}
+
