@@ -5,25 +5,28 @@
 
 # Your Solution Below
 
-def get_grade (x)
+def get_grade(x)
 
-  if x >= 90 && x<= 100
-  then puts "A"
+  if x.to_i >= 90 && x.to_i<= 100
+  puts "A"
 
-  elsif x>=80 && x<=89
-  then puts "B"
+  elsif x.to_i>=80 && x.to_i<=89
+  puts "B"
 
-  elsif x>=70 && x<=79
-  then puts "C"
+  elsif x.to_i>=70 && x.to_i<=79
+  puts "C"
 
-  elsif x>=60 && x<=69
-  then puts "D"
+  elsif x.to_i>=60 && x.to_i<=69
+  puts "D"
 
   else puts "F"
 
   end
 end
 
+puts "What's your grade?"
+  x=gets.chomp
+get_grade(x)
 
 
 
