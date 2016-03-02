@@ -1,4 +1,4 @@
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge [by myself, with: Scott Southard].
 
 
 # Your Solution Below
