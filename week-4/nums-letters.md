@@ -1,5 +1,13 @@
 #Mini-challenges
+'''ruby
+puts 24*365
 
+'''
+
+'''ruby
+puts 60*24*365*10
+
+'''
 
 
 #What does puts do?
