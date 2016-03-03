@@ -31,7 +31,8 @@ Local varibables are the names of the assignments in the form of any sequence of
 This challenge was a little bit hard for me in the beggining because it was a different format of learning the material than what we have been doing.Overall I felt like I got a good understanding of the basics largely because the book was helpful and easy to read.
 
 Defining Variables link:
-
+https://github.com/trefong/phase-0/blob/master/week-4/defining-variables.rb
 Simple String Methods link:
-
+https://github.com/trefong/phase-0/blob/master/week-4/simple-string.rb
 Local Variables and Basic Arithmetical Operations link:
+https://github.com/trefong/phase-0/blob/master/week-4/basic-math.rb
