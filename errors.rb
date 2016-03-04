@@ -144,9 +144,7 @@
 # 5. Why did the interpreter give you this error?
 #You can't divide a variable when defining it.
 
-# --- error -------------------------------------------------------
-
-require_relative "cartmans_essay.md"
+#require_relative "cartmans_essay.md"
 
 # 1. What is the line number where the error occurs?
 #149
