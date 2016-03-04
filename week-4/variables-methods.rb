@@ -15,6 +15,10 @@ fav_num = gets.chomp
 new_num = fav_num.to_i + 1
 puts new_num.to_s + ' is a much better number'
 
+
+#Return a formatted address link:https://github.com/trefong/phase-0/blob/master/week-4/address/my_solution.rb
+#Defining math methods link:https://github.com/trefong/phase-0/blob/master/week-4/math/my_solution.rb
+
 #How do you define a local variable?
   #You define a local variable by naming it and setting it equal to something via the equals sign.
 
