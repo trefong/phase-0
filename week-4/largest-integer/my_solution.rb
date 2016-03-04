@@ -13,7 +13,7 @@
 # Your Solution Below
 def largest_integer(list_of_nums)
   # Your code goes here!
-  list_of_nums.sort!.reverse!
+  list_of_nums.sort! {|x,y| y<=>x}
   return list_of_nums[0]
 end
 largest_integer([-10,0,10])
