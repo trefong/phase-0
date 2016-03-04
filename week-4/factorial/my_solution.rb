@@ -12,5 +12,5 @@
 
 
 def factorial (number)
-  put
+(1..number).inject(1) {|a,b| a*b}
 end
