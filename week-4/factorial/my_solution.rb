@@ -1,6 +1,6 @@
 # Factorial
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge [with: Patrick Dewitte ].
 
 
 # Your Solution Below
@@ -12,5 +12,10 @@
 
 
 def factorial (number)
-(1..number).inject(1) {|a,b| a*b}
+  i=1
+  until number == 0
+    i *= number
+    number -= 1
+  end
+  i
 end
