@@ -27,10 +27,15 @@ def separated_number(number)
   num_string = number.to_s
   num_array = num_string.chars
   counter = -1
-
-
-
+num_array.map! do |x|
+  if counter % 3 == 0
+    num_array[counter] = ","
+  else
+    print num_string
   end
+counter -= 1
+  end
+end
 
 
 separated_number(1000)
