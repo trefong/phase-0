@@ -28,24 +28,6 @@ def separated_number(number)
   num_array = num_string.chars
   counter = -1
 
-  if num_array.length < 4
-    return num_string
-
-  elsif num_array.length == 4
-    #num_array.insert(1,",")
-    #return num_array.join
-    return num_array[0] + ',' + num_array[1] + num_array[2] + num_array[3]
-
-  else
-    num_array
-
-    end
-
-
-
-    end
-
-      counter -= 1
 
 
   end
