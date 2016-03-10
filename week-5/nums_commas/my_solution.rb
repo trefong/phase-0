@@ -1,6 +1,6 @@
 # Numbers to Commas Solo Challenge
 
-# I spent [] hours on this challenge.
+# I spent [6] hours on this challenge.
 
 # Complete each step below according to the challenge directions and
 # include it in this file. Also make sure everything that isn't code
@@ -27,26 +27,42 @@ def separated_number(number)
   num_string = number.to_s
   num_array = num_string.chars
   counter = -1
-num_array.map! do |x|
-  if counter % 3 == 0
-    num_array[counter] = ","
+num_array.each do |x|
+  if counter % 4 == 0
+    num_array.insert(counter, ",")
   end
 counter -= 1
   end
-print num_array.join
+return num_array.join
   end
-end
 
+
+
+# 2. Refactored Solution
+
+def separated_number(number)
+  return number.to_s.chars.to_a.reverse.each_slice(3).map(&:join).join(",").reverse
+end
 
 separated_number(1000)
 separated_number(1000000)
 separated_number(0)
 separated_number(100)
 
-
-# 2. Refactored Solution
-
-
-
-
 # 3. Reflection
+  #What was your process for breaking the problem down? What different approaches did you consider?
+  #I tried to keep the steps as specific and simple as possible. I knew there would be more steps so I didn't want to confuse myself.
+
+  #Was your pseudocode effective in helping you build a successful initial solution?
+  #It was helpful the first round of trying to figure out my initial solution. After my code didn't work, it became useless to keep looking back at it.
+
+  #What new Ruby method(s) did you use when refactoring your solution? Describe your experience of using the Ruby documentation to implement it/them (any difficulties, etc.) Did it/they significantly change the way your code works? If so, how?
+  #The new Ruby methods that I used in this challenge was .char, .insert, and .join. These methods were pretty straightforward when I was using them so it wasn't confusing. As with most methods, the definitely made solving this challenge easier.
+
+  #How did you initially iterate through the data structure?
+  #Initially I used the .each method.
+
+  #Do you feel your refactored solution is more readable than your initial solution? Why?
+  #I feel that the initial solution is more readable because it explains the process, which leads you to understand more.
+
+  # ** NOTE ** My code returns the correct output but the rspec doc did not want to accept it. When I run the my_solution.rb doc in in my command line it completes the challenge. I wasn't sure what I was doing wrong.
