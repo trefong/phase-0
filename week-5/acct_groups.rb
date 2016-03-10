@@ -23,4 +23,18 @@ acct_groups(list)
 def acct_groups(list_of_names)
 new_list = list_of_names.shuffle.each_slice(4).to_a
 
+#Reflect
+#What was the most interesting and most difficult part of this challenge?
+#The most interesting part of this challenge was that I feel myself getting in the habit of thinking like a programmer, the most difficult part was trying to refactor, since my code was already full of methods.
 
+#Do you feel you are improving in your ability to write pseudocode and break the problem down?
+#I do feel that I'm getting better at writing out pseudocode. It helps organize my thoughts in a linear way.
+
+#Was your approach for automating this task a good solution? What could have made it even better?
+#It's a good solution for now, but it could be better if returned how many people there were in each group.
+
+#What data structure did you decide to store the accountability groups in and why?
+#I chose to store the accountability groups in an array because I was mainly interested in the values of the list and didn't need a key related to each.
+
+#What did you learn in the process of refactoring your initial solution? Did you learn any new Ruby methods?
+#It was difficult to gather anything from refactoring because my intital solution was quite clean already. However, I did learn that I could take away the code that prints to the console because if this were used within another method, that wouldn't be needed.The new Ruby methods I learned were shuffle and each_slice.
