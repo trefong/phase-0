@@ -30,10 +30,10 @@ def separated_number(number)
 num_array.map! do |x|
   if counter % 3 == 0
     num_array[counter] = ","
-  else
-    print num_string
   end
 counter -= 1
+  end
+print num_array.join
   end
 end
 
