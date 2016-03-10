@@ -16,10 +16,8 @@
   #define a method that takes an integer as an argument.
   #turn the integer into a string
   #turn each digit into an element of an array.
-  #if the length of the array is less than four return the integer that has been turned into a string
-  #if the length of the array is four, add "," to the array at index 1
-  #turn array to string
-  #if the number length is more than 4, iterate through the array from the last digit to the first, inserting a comma if the counter divided by three equals zero.
+  #set counter to -1
+  #for each of the elements of the array, check if the counter is divisble by 4, if it is insert a comma.
   #turn it into a string
 
 # 1. Initial Solution
