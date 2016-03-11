@@ -38,9 +38,9 @@ return num_array.join
 
 # 2. Refactored Solution
 
-#def separated_number(number)
-  #return number.to_s.chars.to_a.reverse.each_slice(3).map(&:join).join(",").reverse
-#end
+def separated_number(number)
+  return number.to_s.chars.to_a.reverse.each_slice(3).map(&:join).join(",").reverse
+end
 
 separated_number(1000)
 separated_number(1000000)
