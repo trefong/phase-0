@@ -155,4 +155,26 @@ new_game = BingoBoard.new(board)
  new_game.call
  new_game.check
 #Reflection
+=begin
+ -How difficult was pseudocoding this challenge? What do you think of your pseudocoding style?
+  Pseudocoding was a little bit diffucult because I had a hard time going into further detail than what was already outlined, while at the same time not using "coding language". I think my pseudocoding style could use some work, I never know if I should go back and change the pseudocode if I decide to go another route when I try to implement it.
 
+  -What are the benefits of using a class for this challenge?
+  Using a class here is useful because you can use the same variables across the methods.
+
+  -How can you access coordinates in a nested array?
+  You can access nested arrays by specifying the index numbers in brackets, one after anther.
+
+  -What methods did you use to access and modify the array?
+  I mainly used the map!, delete_at, and unshift methods to access and modify the array.
+
+  -Give an example of a new method you learned while reviewing the Ruby docs. Based on what you see in the docs, what purpose does it serve, and how is it called?
+  One method that I learned about was the inspect method. I learned that it is used to turn a something to a string. It is also called .to_s.
+
+  -How did you determine what should be an instance variable versus a local variable?
+  I would use a local variable if I only needed it within the method that I defined it in. Otherwise I would use an instance variable.
+
+  -What do you feel is most improved in your refactored solution?
+  I think that the length of my code is the most improved in my refactored solution.
+
+=end
