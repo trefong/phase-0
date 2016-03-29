@@ -41,4 +41,4 @@ SELECT state_name, region_id FROM states ORDER BY region_id ASC;
 #A primary key identifies entries in the main table while foreign keys identify entries in the secondary table which links to the primary table. You can determine which is which because foreign keys will appear in both tables.
 
 #How can you select information out of a SQL database? What are some general guidelines for that?
-#You can select information out of a SQL database by using SQL querries. Some general guidelines for that is to always make sure you are selecting out of the correct table, you can see the column headers and tables by typing .schema, and end each querrie with a semicolon.
+#You can select information out of a SQL database by using SQL querries. Some general guidelines for that is to always make sure you are selecting out of the correct table, you can see the column headers and tables by typing .schema, and end each command with a semicolon.
